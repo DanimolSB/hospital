@@ -1,0 +1,219 @@
+*{
+            margin:0px;
+            padding: 0px;
+            box-sizing: border-box;
+            }
+      
+         .image{
+          background-image: url('assets/image/home/background.png');
+          width:100%;
+          height:500px;
+          background-repeat:no-repeat;
+          background-size:cover;
+         }
+         .navbar{
+          display:flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color:#28A187; 
+          padding: 15px 30px;
+        }
+         .design{
+           background-color:#28A187;
+          color:white;          
+          font-size: 25px;
+          font-weight: bold;
+          text-align: center;
+          padding-top: 20px;
+          padding-bottom :20px; 
+          padding-left: 20px;
+          margin-bottom: 0px;
+         }
+
+           .nav-links{
+          list-style: none;
+          display: flex;
+          gap:30px;
+          padding-right: 20px;
+        }
+         .nav-links a{
+          text-decoration: none;
+          color:white;
+          font-size: 20px;
+          transition: color 0.3s ease;
+        }
+        .nav-links a:hover{
+          color:rgb(33, 13, 26);
+        }
+        .bg{
+            background-image: url('assets/image/home/background.png');
+            height:650px;
+            width:100%;
+            padding:60px;
+        
+        }
+        .parag
+        {
+          padding: 80px; 
+        
+        }
+        .but{
+            background-color: #28A187;
+            border-radius: 5px;
+            padding:10px;
+            color:white;
+            font-weight: bold;
+        
+        }
+        .gt{
+            text-align: justify;
+        }
+        .marquee-section{
+            background-color: #28A187;
+            width:100%;
+            color:white;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top:10px;
+        }
+        .bg1{
+          background-image: url("assets/image/home/background1.png");
+          height:700px;
+          width:100%;
+        }
+        .bg2{
+        
+          padding-top:200px;
+          padding-left: 50px;
+        }
+        .head{
+          font-size: 65px;
+          font-weight: bold;
+        
+        }
+        .b1{
+          font-size: 18px;
+          padding-top: 25px;
+        padding-bottom: 20px;
+          line-height: 2.0;
+        }
+        .click{
+            background-color: #28A187;
+            border-radius: 5px;
+            padding:15px;
+            color:white;
+            font-weight: bold;
+        
+        }
+        .set{
+          margin-top: 80px;
+          margin-bottom:80px;
+        
+        }
+        .sets{
+          background-color:#70C9B4;
+          padding-top:80px;
+          padding-bottom: 80px;
+          color:white;
+          
+       
+        }
+
+        .para{
+          font-size: 19px;
+        }
+        .sc3{
+           height:80px;
+        }
+        .p14{
+        
+        justify-content: space-between; 
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        }
+         .box{
+          height:265px;
+          width:400px;
+          padding:20px;
+          border-radius: 10px;
+          background-color: #28A187;
+          margin:30px;
+        
+        }.p1{
+          text-align:center;
+          font-weight: bold;
+          color:white;
+        }
+        .p2{
+          text-align: center;
+          color:white;
+
+        }
+        .p3{
+          padding-left:100px;
+        }
+        .p4{
+          height:120px;
+          padding-left: 80px;
+        }
+        .p6{
+          width: 430px;
+          height: 200px;
+          margin:30px;
+        }
+        footer{
+          display: flex;
+          list-style-type: none;
+          background-color: #28A187 ;
+          color:white;
+        
+        }
+        .fas{
+          font-size: 25px;
+          color:white;
+          padding-right: 15px;
+        
+        }
+        .p7{
+          line-height: 40px;
+        }
+        .p8{
+          line-height: 35px;
+        }
+        .p9{
+          padding-left: 40px;
+        }
+        .fa-solid{
+          padding-right: 20px;
+        }
+        .p15{
+          text-align: center;
+          color:#28A187;
+          font-weight: bold;
+        }
+        .s1{
+          height: 100px;
+          
+          
+        }
+        .s2{
+          padding-bottom: 50px;
+        }
+        .p5{
+          font-size: 30px;
+          font-weight: bold;
+          padding-bottom: 20px;
+        }
+        .s3{
+          text-align: center;
+          color:#28A187;
+          font-weight: bold;
+        }
+        .p{
+          color:white;
+          border-radius: 3px;
+          padding:10px;
+          background-color:#28A187;
+          font-weight: bold;
+          line-height: 20px;
+        }

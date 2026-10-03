@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="hospital.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <style>
+         .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* LEFT SIDE */
+.contact-box {
+    width: 40%;
+}
+
+.box {
+    background: #28A187;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    height:400px;
+    width:300px;
+}
+
+.box ul {
+    padding: 0;
+    margin: 0;
+}
+
+.box li {
+    font-size: 18px;
+    padding: 18px 5px;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+/* Call button */
+.p {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #28A187;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.p:hover {
+    background: #207f6d;
+}
+
+
+/* RIGHT SIDE */
+.formm {
+    width: 55%;
+    padding: 30px;
+    background: #28A187;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    color:white;
+}
+
+.formm form {
+    width: 100%;
+}
+
+.formm label {
+    display: inline-block;
+    width: 170px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formm input,
+.formm select {
+    width: 55%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formm input[type="submit"] {
+    width: 150px;
+    background: white;
+    color: #28A187;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+
+/* Heading */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+    
+.location {
+    width: 100%;
+    text-align: center;
+    padding-top:50px;
+    
+}
+.loc{
+    padding-bottom: 30px;
+}
+.bg5{
+background-image:
+    linear-gradient(
+        135deg,
+        rgba(232, 250, 247, 0.35),
+        rgba(184, 232, 224, 0.35),
+        rgba(135, 163, 157, 0.45)
+    ),
+    url("assets/image/home/contactus 1.jpg");
+          height:500px;
+          width: 100%;
+          background-repeat: no-repeat;
+         background-size: 100% auto;
+background-position: center;
+
+}
+.tail{
+    text-align: center;
+    padding-top:150px;
+    color:black;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+.t1{
+     text-align: center;
+     color:black; 
+     font-size: 25px;
+     
+}
+.s5{
+   display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="design">Hospital Website</div>
+
+        <ul class="nav-links">
+            <li><a href="hospital.html">Home</a></li>
+            <li><a href="about us .html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">services</a></li>
+        </ul>
+       </nav>
+
+
+        <div class="bg5">
+        <h1 class="tail">Contact Us</h1>
+        <p class="t1">Home -> Contact Us</p>
+        
+        </div>
+   
+<h2 class="heading s3">Contact Our Hospital</h2>
+<h3 class="s5">
+
+We are here to provide quality healthcare and support to our patients.<br> Contact us for appointments, medical enquiries, or any assistance you need.
+</h3>
+
+<div class="contact-container">
+
+    <!-- Left side: Contact Box -->
+    <!-- <section class="contact-box"> -->
+        <div class="bg20">
+            <img src="assets/image/home/hospital1.png" style="width: 550px; height:695px;">
+           
+        </div>
+    <!-- </section> -->
+
+
+    <!-- Right side: Form -->
+    <div class="formm">
+        <form>
+
+            <label>Patient Name:</label>
+            <input type="text" name="patientname"><br><br>
+
+            <label>Age:</label>
+            <input type="number" name="age"><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email"><br><br>
+
+            <label>Appointment Date:</label>
+            <input type="date" name="appointmentdate"><br><br>
+
+            <label>Phone number:</label>
+            <input type="tel" name="contact"><br><br>
+
+            <label>Gender:</label>
+            <select name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select><br><br>
+
+            <label>Address:</label>
+            <textarea type="text" name="address" rows="5" cols="50"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</div>
+
+
+<section class="location">
+    <h2 class="loc">Our Location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.0025146246026!2d77.2208674751264!3d8.302546991732632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0455ab2230d98b%3A0xd0b5b077f8096f12!2sCADPOINT%20Marthandam!5e0!3m2!1sen!2sin!4v1790406649515!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    
+</section>
+
+        
+ <footer >
+        <div class="p6  p9" >
+            <h1 class="p5"> Hospital Name</h1>
+            <p>Our hospitOur hospital provides **quality healthcare with compassion, advanced medical facilities, and experienced doctors**. 
+
+            We are committed to offering **safe, reliable, and patient-centered treatment** in a clean and comfortable environment.
+            </p>
+        </div>
+
+
+
+        <div class="p6  p8">
+            <h1 class="p5">Services provide</h1>
+            <li><i class="fas fa-stethoscope"></i> General Consultation</li>
+            <li><i class="fas fa-user-doctor"></i> Nursing Care</li>
+            <li><i class="fas fa-flask"></i> Laboratory & Diagnostic Tests</li>
+            <li><i class="fas fa-baby"></i>Pediatric Care</li>
+        </div>
+       
+        <div class="p6">
+            <h1 class="p5">working hours</h1>
+             <div class="working-hours">
+    <p>Monday - Friday <span>9:00 AM - 8:00 PM</span></p>
+    <p>Saturday <span>9:00 AM - 5:00 PM</span></p>
+    <p>Sunday <span>Emergency Only</span></p>
+</div>
+         </div>
+           
+         <div class="p6  p7">
+            <h1 class="p5">Contacts</h1>
+              <li><i class="fas fa-location-dot"></i>  New York,NY 10012,US</li>
+            <li><i class="fas fa-phone"></i>+91 9023852940</li>
+            <li><i class="fas fa-envelope"></i>Hospitalwebsite@gmail.com</li>
+            
+        </div>
+       
+    </footer>
+        <p class="design">© 2026 Hospital Website. All Rights Reserved.</p>
+
+
+         
+      
+</body>
+</html>
